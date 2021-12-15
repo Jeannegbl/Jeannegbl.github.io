@@ -15,7 +15,7 @@ body {
     top: 0;
     animation-name: santa;
     animation-duration: 6s;
-    animation-iteration-count: 5;
+    animation-iteration-count: infinite;
 }
 @keyframes santa { 
     from { margin-left:-20%;} 
@@ -34,10 +34,8 @@ body > img{
     right: auto;
     left: auto;
 }
-
-
-@media screen and (min-width: 1024px){
-    body{
-        
-    }
+audio{
+    position: absolute;
+    right: 0;
+    bottom: 0;
 }
