@@ -1,0 +1,43 @@
+body {
+    overflow-x: hidden;
+    color:rgb(255, 0, 0);
+    text-align:center; 
+    background-image: url(https://besthqwallpapers.com/Uploads/25-11-2018/72528/thumb2-christmas-frame-light-wooden-background-new-year-art-christmas-gifts.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size:100px;
+  }
+
+.traineau > img{
+    width: 10%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    animation-name: santa;
+    animation-duration: 6s;
+    animation-iteration-count: 5;
+}
+@keyframes santa { 
+    from { margin-left:-20%;} 
+    to { margin-left: 100%;}
+}
+
+p{
+    font-family: 'Corinthia', cursive;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+}
+body > img{
+    position: relative;
+    right: auto;
+    left: auto;
+}
+
+
+@media screen and (min-width: 1024px){
+    body{
+        
+    }
+}
